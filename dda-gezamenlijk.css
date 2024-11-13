@@ -120,7 +120,7 @@ time::after {
   letter-spacing: -0.06em;
   border: 1px solid var(--black);
   text-transform: uppercase;
-  padding: 0 4px;
+  padding: 0 4px  ;
 }
 
 .neutral {

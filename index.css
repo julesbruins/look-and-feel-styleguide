@@ -6,7 +6,7 @@
   }
   body {
     max-width: 40em;
-    margin: auto;
+    margin: auto !important;
     background: #fff;
   }
   nav:not([class]),

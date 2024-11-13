@@ -52,7 +52,7 @@ h2,
   font-size: clamp(2.5rem, 5vw, var(--size-xl));
   font-weight: 600; /* stays semibold */
   letter-spacing: var(--letter-spacing);
-  line-height: 2.5rem;
+  line-height: clamp(2.5rem, 4vw, var(--size-xl));
 }
 
 h3,

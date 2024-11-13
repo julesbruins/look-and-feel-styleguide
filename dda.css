@@ -25,9 +25,10 @@ body {
 }
 
 /* CSS reset */
+/* ! zet deze aan in je eigen project */
 * {
-  padding: 0;
-  margin: 0;
+  /* padding: 0;
+  margin: 0; */
   box-sizing: border-box;
 }
 
@@ -87,7 +88,7 @@ h6,
 
 p,
 .sm {
-  font-size: clamp(1rem, 2.5vw, 1.125rem);
+  font-size: clamp(var(--size-sm), 2.5vw, 1.125rem);
   font-weight: 400; /* stays regular */
   letter-spacing: 0;
   line-height: clamp(1.5rem, 2.5vw, var(--size-md));
@@ -96,7 +97,7 @@ p,
 .subtext,
 .xs,
 p:has(time) {
-  font-size: 16px;
+  font-size: var(--size-sm);
   font-weight: 400; /* stays regular */
   letter-spacing: var(--letter-spacing);
   line-height: 1.5rem;
@@ -113,6 +114,7 @@ time::after {
 }
 
 .label {
+  font-size: var(--size-sm);
   font-family: var(--secondary-font);
   font-weight: 300;
   letter-spacing: -0.06em;

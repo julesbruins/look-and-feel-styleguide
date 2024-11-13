@@ -6,8 +6,8 @@
   }
   body {
     max-width: 40em;
-    margin: auto !important;
-    background: #fff;
+    margin: auto;
+    background: var(--white);
   }
   nav:not([class]),
   h1:not([class]),
@@ -39,8 +39,24 @@
       display: grid;
       place-items: center;
       border-radius: 50%;
+      border: dotted 5px var(--black);
       aspect-ratio: 1;
-      background: #ccc;
+      /* background: #ccc; */
     }
+  }
+  .white-example{
+    background: var(--white);;
+  }
+  .black-example{
+    background: var(--black);
+  }
+  .grey-example{
+    background: var(--grey);;
+  }
+  .blue-example{
+    background: var(--blue);
+  }
+  .important-example{
+    background: var(--important);
   }
 }

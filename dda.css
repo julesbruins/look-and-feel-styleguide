@@ -136,3 +136,9 @@ time::after {
 }
 
 /* Formulier elementen */
+
+/* Extra */
+/* ::selection {
+  background-color: var(--important);
+  color: var(--white);
+} */

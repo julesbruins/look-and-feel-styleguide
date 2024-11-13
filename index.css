@@ -6,9 +6,12 @@
     scroll-behavior: smooth;
   }
   body {
-    max-width: 40em;
-    margin: 3rem auto;
+    max-width: calc(40em + 6rem);
+    margin: auto;
     background: var(--white);
+    border: 1px solid black;
+    border-width: 0 1px;
+    padding: 3rem;
   }
   p:not([class]) > code:not([class]) {
     display: block;

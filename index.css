@@ -7,7 +7,7 @@
   body {
     max-width: 40em;
     margin: auto;
-    background: #fff;
+    background: var(--white);
   }
   nav:not([class]),
   h1:not([class]),
@@ -39,8 +39,29 @@
       display: grid;
       place-items: center;
       border-radius: 50%;
+      border: dotted 5px var(--black);
       aspect-ratio: 1;
-      background: #ccc;
+      > span{
+        font-size: 1rem;
+        color: white;
+        mix-blend-mode:difference;
+      }
+      /* background: #ccc; */
     }
+  }
+  .white-example{
+    background: var(--white);;
+  }
+  .black-example{
+    background: var(--black);
+  }
+  .grey-example{
+    background: var(--grey);;
+  }
+  .blue-example{
+    background: var(--blue);
+  }
+  .important-example{
+    background: var(--important);
   }
 }

@@ -1,15 +1,7 @@
 /* Schrijf hier de verschillende stijlen, die gedeeld gaan
    worden door jullie projecten */
-@font-face {
-  font-family: "Archivo";
-  /* src: url("../assets/fonts/Archivo-VariableFont.ttf") format("ttf"); */
-  src: url("../assets/fonts/Archivo-VariableFont.woff2") format("woff2");
-}
-@font-face {
-  font-family: "Martian Mono";
-  src: url("../assets/fonts/MartianMono-VariableFont.woff2") format("woff2");
-}
-:root {
+
+body {
   --primary-font: "Archivo", verdana;
   --secondary-font: "Martian Mono", sans-serif;
   --white: 255, 255, 255;
@@ -27,9 +19,6 @@
   --size-xl: 4rem;
   --size-xxl: 6rem;
 
-  /* animation */
-  --linear-slider: 10s linear infinite;
-
   /* default */
   background: rgba(var(--white));
   font-family: var(--primary-font);
@@ -45,11 +34,6 @@
 html {
   scroll-behavior: smooth;
   min-height: 100vh;
-}
-
-/* Kleuren */
-.color-example {
-  background-color: #bada55;
 }
 
 /* Typografie */

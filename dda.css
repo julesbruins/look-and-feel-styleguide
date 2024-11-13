@@ -4,11 +4,11 @@
 body {
   --primary-font: "Archivo", verdana;
   --secondary-font: "Martian Mono", sans-serif;
-  --white: 255, 255, 255;
-  --black: 34, 34, 38;
-  --grey: 102, 102, 102;
-  --blue: 54, 75, 247;
-  --important: 247, 225, 159;
+  --white: #ffffff;
+  --black: #000000;
+  --grey: #666666;
+  --blue: #364bf7;
+  --important: #f7e19f;
   --letter-spacing: -0.04em; /* -4% van de font size */
 
   /* spacing */
@@ -20,7 +20,7 @@ body {
   --size-xxl: 6rem;
 
   /* default */
-  background: rgba(var(--white));
+  background: var(--white);
   font-family: var(--primary-font);
 }
 
@@ -116,7 +116,7 @@ time::after {
   font-family: var(--secondary-font);
   font-weight: 300;
   letter-spacing: -0.06em;
-  border: 1px solid rgba(var(--black));
+  border: 1px solid var(--black);
   text-transform: uppercase;
   padding: 0 4px;
 }

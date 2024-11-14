@@ -7,11 +7,15 @@
   }
   body {
     max-width: calc(40em + 6rem);
-    margin: auto;
+    margin: 0 auto;
     background: var(--white);
     border: 1px solid black;
     border-width: 0 1px;
     padding: 3rem;
+  }
+  *:not(body, section > *) {
+    padding: 0;
+    margin: 0;
   }
   p:not([class]) > code:not([class]) {
     display: block;

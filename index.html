@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>[DDA] - Styleguide</title>
-    <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="dda-gezamenlijk.css" />
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <header>
@@ -27,12 +27,15 @@
     <nav>
       <div class="nav-items">
         <ul>
-          <a href="#kleur">Kleuren</a>
-          <li></li>
-          <a href="#typografie">Typografie</a>
-          <li></li>
-          <a href="#formulieren">Formulier elementen</a>
-          <li></li>
+          <li>
+            <a href="#kleur">Kleuren</a>
+          </li>
+          <li>
+            <a href="#typografie">Typografie</a>
+          </li>
+          <li>
+            <a href="#formulieren">Formulier elementen</a>
+          </li>
         </ul>
       </div>
 
@@ -228,7 +231,59 @@
 
         <input type="submit" value="Submit button" class="" />
 
-        <button type="button" class="">Button</button>
+        <button type="button" class="btn">
+          <span>Button</span>
+          <div>
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8 3L13.0001 8.0001L8 13.0002"
+                stroke="#222226"
+                stroke-width="1.5"
+                stroke-miterlimit="4.62023"
+              />
+              <path
+                d="M3 8L13 8"
+                stroke="#222226"
+                stroke-width="1.5"
+                stroke-miterlimit="4.62023"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+        <!-- most of the time the button has the bold 'attribute' -->
+        <button type="button" class="btn bold">
+          <span>Button</span>
+          <div>
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8 3L13.0001 8.0001L8 13.0002"
+                stroke="#222226"
+                stroke-width="1.5"
+                stroke-miterlimit="4.62023"
+              />
+              <path
+                d="M3 8L13 8"
+                stroke="#222226"
+                stroke-width="1.5"
+                stroke-miterlimit="4.62023"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
       </form>
     </section>
 

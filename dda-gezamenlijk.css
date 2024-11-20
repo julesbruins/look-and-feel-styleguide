@@ -1,5 +1,13 @@
 /* Schrijf hier de verschillende stijlen, die gedeeld gaan
    worden door jullie projecten */
+@font-face {
+  font-family: "Archivo";
+  src: url("../assets/fonts/Archivo-VariableFont.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Martian Mono";
+  src: url("../assets/fonts/MartianMono-VariableFont.woff2") format("woff2");
+}
 
 body {
   --primary-font: "Archivo", verdana;
@@ -44,7 +52,7 @@ html {
 /* Typografie */
 h1,
 .xxxl {
-  font-size: clamp(var(--size-lg), 6vw, var(--size-xxl));
+  font-size: clamp(2.5rem, 6vw, var(--size-xxl));
   font-weight: 600; /* stays semibold */
   letter-spacing: var(--letter-spacing);
   line-height: clamp(1em, 5vw, var(--size-xxl));

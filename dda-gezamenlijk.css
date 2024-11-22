@@ -131,13 +131,13 @@ time::after {
 }
 
 a {
-  color: rgba(var(--blue));
+  color: var(--blue);
   text-decoration: none;
   position: relative;
   font-family: var(--secondary-font);
   text-transform: uppercase;
   svg > path {
-    stroke: rgba(var(--blue));
+    stroke: var(--blue);
   }
 }
 
@@ -147,7 +147,7 @@ a {
   background: var(--white);
   display: flex;
   height: 48px;
-  color: rgba(var(--black));
+  color: var(--black);
   border: 1px solid var(--black);
   stroke: initial;
   > * {

@@ -2,11 +2,12 @@
    worden door jullie projecten */
 @font-face {
   font-family: "Archivo";
-  src: url("./fonts/Archivo-Italic-VariableFont.woff2") format("woff2");
+  src: url(./fonts/Archivo-Italic-VariableFont.woff2) format("woff2");
 }
+
 @font-face {
   font-family: "Martian Mono";
-  src: url("./assets/fonts/MartianMono-VariableFont.woff2") format("woff2");
+  src: url(./assets/fonts/MartianMono-VariableFont.woff2) format("woff2");
 }
 
 body {

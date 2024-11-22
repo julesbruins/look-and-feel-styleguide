@@ -32,26 +32,10 @@ body {
   font-family: var(--primary-font);
 }
 
-/* CSS reset */
-/* ! zet deze aan in je eigen project */
-* {
-  /* padding: 0;
-  margin: 0; */
-  box-sizing: border-box;
-}
-
-ul {
-  list-style-type: none;
-}
-
-html {
-  scroll-behavior: smooth;
-  min-height: 100vh;
-}
-
 /* Typografie */
-h1,
+/* h1 */
 .xxxl {
+  font-family: var(--primary-font);
   font-size: clamp(2.5rem, 6vw, var(--size-xxl));
   font-weight: 600; /* stays semibold */
   letter-spacing: var(--letter-spacing);
@@ -59,7 +43,7 @@ h1,
   text-transform: uppercase;
 }
 
-h2,
+/* h2 */
 .xxl {
   font-size: clamp(2.5rem, 5vw, var(--size-xl));
   font-weight: 600; /* stays semibold */
@@ -67,7 +51,7 @@ h2,
   line-height: clamp(2.5rem, 4vw, var(--size-xl));
 }
 
-h3,
+/* h3 */
 .xl {
   font-size: clamp(var(--size-md), 4vw, 3rem);
   font-weight: 400; /* regular on sm | semiBold on md+ */
@@ -76,7 +60,7 @@ h3,
   text-transform: uppercase;
 }
 
-h4,
+/* h4 */
 .lg {
   font-size: clamp(1.5rem, 3.5vw, var(--size-md));
   font-weight: 400; /* stays regular */
@@ -84,8 +68,7 @@ h4,
   line-height: clamp(var(--size-md), 3vw, 2.5rem);
 }
 
-h5,
-h6,
+/* h5 && h6 */
 .md {
   font-size: clamp(1.125rem, 2vw, 1.5rem);
   font-weight: 600; /* stays semibold */
@@ -93,12 +76,12 @@ h6,
   line-height: clamp(var(--size-md), 2vw, 2.5rem);
 }
 
-h6,
+/* h6 */
 .light {
   font-weight: 400; /* stays regular */
 }
 
-p,
+/* p */
 .sm {
   font-size: clamp(var(--size-sm), 2.5vw, 1.125rem);
   font-weight: 400; /* stays regular */
@@ -106,9 +89,10 @@ p,
   line-height: clamp(1.5rem, 2.5vw, var(--size-md));
 }
 
+/* p:has(time) */
 .subtext,
-.xs,
-p:has(time) {
+.xs
+ {
   font-size: var(--size-sm);
   font-weight: 400; /* stays regular */
   letter-spacing: var(--letter-spacing);
@@ -116,9 +100,7 @@ p:has(time) {
   font-family: var(--secondary-font);
 }
 
-p:has(time) {
-  text-transform: uppercase;
-}
+
 
 time::after {
   content: "/";
@@ -187,9 +169,3 @@ a {
   cursor: pointer;
 }
 /* Formulier elementen */
-
-/* Extra */
-/* ::selection {
-  background-color: var(--important);
-  color: var(--white);
-} */

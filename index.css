@@ -7,7 +7,7 @@
   }
   body {
     max-width: calc(40em + 6rem);
-    margin: 0 auto;
+    margin: 0 auto !important;
     background: var(--white);
     border: 1px solid black;
     border-width: 0 1px;
@@ -19,9 +19,6 @@
   }
   p:not([class]) > code:not([class]) {
     display: block;
-  }
-  nav{
-    margin-top: 1.5rem;
   }
   nav:not([class]) > a {
     height: fit-content;

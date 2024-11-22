@@ -20,7 +20,11 @@
   p:not([class]) > code:not([class]) {
     display: block;
   }
+  nav{
+    margin-top: 1.5rem;
+  }
   nav:not([class]) > a {
+    height: fit-content;
     padding: 0.5em;
     border: 1px solid;
     color: inherit;

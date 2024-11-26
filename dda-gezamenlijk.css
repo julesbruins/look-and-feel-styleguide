@@ -101,13 +101,6 @@ body {
   font-family: var(--secondary-font);
 }
 
-
-
-time::after {
-  content: "/";
-  padding: 0 0.5rem;
-}
-
 .label {
   font-size: var(--size-sm);
   font-family: var(--secondary-font);
